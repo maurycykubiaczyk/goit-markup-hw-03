@@ -8,6 +8,10 @@
   --black-color: #000000;
   --border-color: #ececec;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   font-family: "roboto", "sans-serif";
   color: #212121;
@@ -15,19 +19,14 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  
-  padding: 0px;
+  padding-left: 15px;
+  /* padding-right: 15px; */
 }
 .section {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.main-page {
-  max-width: 1600px;
-  max-height: 2349px;
-  background-color: var(--white-color);
-  margin: 0 auto;
-}
+
 /* header */
 .logo {
   text-decoration: none;
@@ -97,6 +96,9 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  
 }
 .header {
   color: var(--white-color);
@@ -106,8 +108,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  line-height: 60px;
-  margin: 106px 252px 30px;
+  width: 696px;
+  height: 120px;
+ 
 }
 .main-button {
   cursor: pointer;
@@ -122,17 +125,21 @@ body {
   border: none;
   font-family: inherit;
   padding: 10px 42px 10px 41px;
-  margin-bottom: 200px;
+  margin-top: 30px;
+  
 }
 .text-list {
   list-style: none;
   display: flex;
   padding: 0px;
   gap: 30px;
+  padding-top: 94px;
+  padding-left: 15px;
 }
+
 .whole-text {
   display: inline;
-  padding-top: 94px;
+  
 }
 .text-title {
   color: var(--brand-color);
@@ -153,7 +160,6 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
   display: flex;
   width: 270px;
   height: 75px;
@@ -166,7 +172,9 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 50px;
 }
+
 .photos-about {
   padding-top: 94px;
 }
@@ -181,8 +189,6 @@ body {
 }
 .team {
   background-color: var(--white2-color);
-  height: 648px;
-  padding-top: 94px;
   margin-top: 94px;
 }
 .team-image {
@@ -201,6 +207,8 @@ body {
   max-width: 100%;
   padding: 0px;
   margin: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   color: var(--brand-color);
@@ -223,11 +231,9 @@ body {
 }
 .footer-background {
   background-color: var(--grey-color);
-  height: 252px;
-  
 }
 .footer {
-  height: 252px;
+  padding-bottom: 60px;
   padding-top: 60px;
 }
 .second-webstudio-footer {
@@ -298,15 +304,17 @@ body {
   flex-wrap: wrap;
   padding-inline-start: 0px;
   gap: 30px;
-  padding-left: 15px;
   padding-top: 56px;
   margin: 0%;
   padding-bottom: 94px;
-  
 }
 .projects-photo {
   margin: 0px;
   border: 1px solid #EEEEEE;
+}
+.projects-description {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .projects-description h3 {
   color: var(--brand-color);
@@ -333,7 +341,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 80px;
 }
 .logo-links {
   display: flex;
@@ -343,15 +350,20 @@ body {
   display: flex;
   padding: 0px;
   margin-left: 93px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 .header-links li {
-  margin: 46px;
+  display: flex;
+  margin-left: 46px;
+  margin-right: 46px;
 }
 .contacts {
   display: flex;
+  gap: 50px;
 }
 .contacts li {
-  margin: 50px;
-  margin-right: 0px;
+  display: flex;
+  
 }
 /* flexbox header button */
