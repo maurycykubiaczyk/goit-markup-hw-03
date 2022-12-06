@@ -20,7 +20,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
-  /* padding-right: 15px; */
+  padding-right: 15px;
 }
 .section {
   padding-bottom: 94px;
@@ -172,11 +172,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .photos-about {
   padding-top: 94px;
+  margin-bottom: 94px;
 }
 
 .photos-list {
@@ -189,7 +190,6 @@ body {
 }
 .team {
   background-color: var(--white2-color);
-  margin-top: 94px;
 }
 .team-image {
   margin: 0px;
@@ -303,9 +303,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding-inline-start: 0px;
-  gap: 30px;
+  gap: 24px;
   padding-top: 56px;
-  margin: 0%;
   padding-bottom: 94px;
 }
 .projects-photo {
@@ -322,7 +321,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 .projects-description span {
   color: var(--brown-color);
@@ -330,7 +329,7 @@ body {
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  margin-left: 24px;
+  padding-left: 24px;
 }
 
 /* flexbox-header */
