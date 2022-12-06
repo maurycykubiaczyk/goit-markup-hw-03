@@ -314,22 +314,23 @@ body {
 .projects-description {
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 24px;
 }
-.projects-description h3 {
+.projects-title {
   color: var(--brand-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-left: 24px;
+  
 }
-.projects-description span {
+.projects-category {
   color: var(--brown-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.86;
   letter-spacing: 0.03em;
-  padding-left: 24px;
+  
 }
 
 /* flexbox-header */
@@ -351,11 +352,11 @@ body {
   margin-left: 93px;
   margin-top: 32px;
   margin-bottom: 32px;
+  gap: 46px;
 }
 .header-links li {
   display: flex;
-  margin-left: 46px;
-  margin-right: 46px;
+  
 }
 .contacts {
   display: flex;
